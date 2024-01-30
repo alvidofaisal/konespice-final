@@ -12849,7 +12849,7 @@ website:    http://www.burocratik.com
 </ul>
 </li>
 </li>
-<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="https://konespice.com/about/">About</a></li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-39"><a href="#" onclick="doubleRedirect()">About</a></li>
 <li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://konespice.com">Contact</a></li>
 <!-- OFF
 <li id="menu-item-2229" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2229"><a href="">Visit</a></li>
@@ -13352,7 +13352,17 @@ website:    http://www.burocratik.com
     </div>
     <!-- container -->
 
+    <script>
+      function doubleRedirect() {
+          // Navigate to the first URL
+          window.location.href = 'https://konespice.com';
 
+          // Wait for 5 seconds, then navigate to the second URL
+          setTimeout(function() {
+              window.location.href = 'https://konespice.com/about';
+          }, 5000);
+      }
+  </script>
     <script
       type="text/javascript"
       src="../wp-content/plugins/contact-form-7/includes/js/scripts.js"
