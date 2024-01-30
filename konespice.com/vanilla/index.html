@@ -9,6 +9,18 @@
       var CDN = "";
     </script>
 
+<script>
+  function doubleRedirect() {
+      // Navigate to the first URL
+      window.location.href = 'https://konespice.com';
+
+      // Wait for 5 seconds, then navigate to the second URL
+      setTimeout(function() {
+          window.location.href = 'https://konespice.com/about';
+      },100);
+  }
+</script>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <meta name="HandheldFriendly" content="True" />
@@ -13352,17 +13364,6 @@ website:    http://www.burocratik.com
     </div>
     <!-- container -->
 
-    <script>
-      function doubleRedirect() {
-          // Navigate to the first URL
-          window.location.href = 'https://konespice.com';
-
-          // Wait for 5 seconds, then navigate to the second URL
-          setTimeout(function() {
-              window.location.href = 'https://konespice.com/about';
-          }, 500);
-      }
-  </script>
     <script
       type="text/javascript"
       src="../wp-content/plugins/contact-form-7/includes/js/scripts.js"
