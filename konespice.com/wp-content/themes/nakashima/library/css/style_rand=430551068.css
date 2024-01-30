@@ -2344,13 +2344,13 @@ svg .color-stroke {
 
     padding: 0px 15px;
     padding-top: 10px;
-    font-family: 'Newton-Regular'!important;
+    font-family: 'Neuton'!important;
     letter-spacing: 2px;
     color: #000;
     opacity: .7;
     -webkit-transition: opacity 0.3s ease-out;
     transition: opacity 0.3s ease-out;
-    font-size: 12px;
+    font-size: 22px;
 }
 
 @media (min-width: 768px) {
