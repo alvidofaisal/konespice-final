@@ -3867,7 +3867,7 @@ website:    http://www.burocratik.com
 	}
 
 	#footer .table-footer {
-	  display: none;
+	  display: block;
 	  margin: 0 auto;
 	  padding: 20px 0px 20px 0px;
 	  border-top: 1px solid #cdcdcd;
@@ -3882,6 +3882,13 @@ website:    http://www.burocratik.com
 		display: block;
 	  }
 	}
+
+	@media (max-width: 768px) {
+		#footer .table-footer {
+		  display: none;
+		}
+	  }
+  
 
 	@media (min-width: 1680px) {
 	  #footer .table-footer {
